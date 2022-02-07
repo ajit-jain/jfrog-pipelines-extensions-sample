@@ -2,7 +2,7 @@ resources:
   - name: MyGitHub
     type: GitRepo
     configuration:
-      path: ajit-jain/jfrog-pipelines-extensions-sample/pipeline    # <-- Change to your repository path
+      path: ajit-jain/jfrog-pipelines-extensions-sample    # <-- Change to your repository path
       gitProvider: my_github                                    # <-- Change to your GitHub integration
       
   - name: MyTest
